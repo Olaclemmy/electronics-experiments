@@ -1,0 +1,10 @@
+PODS:
+  - Eddystone (1.1.4)
+
+DEPENDENCIES:
+  - Eddystone (= 1.1.4)
+
+SPEC CHECKSUMS:
+  Eddystone: f655d3caf6813b19bf98c1771312017d99bb8dc8
+
+COCOAPODS: 0.39.0

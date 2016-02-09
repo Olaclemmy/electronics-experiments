@@ -1,0 +1,663 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		21C6018E93AD95609F9295A5F35C432B /* Object.swift in Sources */ = {isa = PBXBuildFile; fileRef = CD222C51096AD37DB3F43674EF654ED5 /* Object.swift */; };
+		2EC4149C7D05B04A3E28943FB8701A1C /* Uid.swift in Sources */ = {isa = PBXBuildFile; fileRef = E311E6883BCA313C8980200E56FA4796 /* Uid.swift */; };
+		2F8D2487DFD09F7328A0BEDAC4FFDBB3 /* TlmFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 97BBBFD5E591D66B7B8DB2F8F83C236B /* TlmFrame.swift */; };
+		3692A11DEC4747A9A08107E3D6983B81 /* CoreBluetooth.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */; };
+		5E23E02D68C55E40E4B9C157E0744F42 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		6338D0F6D1629CFD1031EA2EE057D33F /* Url.swift in Sources */ = {isa = PBXBuildFile; fileRef = 76096088F9275E6BAABC11459A0FD726 /* Url.swift */; };
+		641FEA384354CCA679BD30197CBE1B07 /* Beacon.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C22AECCF7E1604B272D80202693215 /* Beacon.swift */; };
+		6683497D46C032777D963B5984F97D58 /* Scanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 74715FA6BB0999445EDAF31FF82E336E /* Scanner.swift */; };
+		68C7368A302C6B5AADB8CA6A879FB8E4 /* UidFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5309BFEA25A2A03724F69030EF0A4120 /* UidFrame.swift */; };
+		780BDD71DC2F571FD752DEC54091E4B9 /* IntExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 072E62358342D6E70843AC662DB0187A /* IntExtensions.swift */; };
+		794A258922CB2EA87DBF3066D68EA0EB /* Generic.swift in Sources */ = {isa = PBXBuildFile; fileRef = 91297C601340CF876F4C730453DABB29 /* Generic.swift */; };
+		85487A8EA2F0CC70BD56B28DBA56F6CA /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */; };
+		95FA5C99F898056A81AAEE4AD82729A4 /* DoubleExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD77091ECFE8287A079ECF9C808BFC0C /* DoubleExtensions.swift */; };
+		961B177759154B100069CD3DCDCB2999 /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */; };
+		96F7718EB09E03ADD3D93B4DB71110EC /* CoreBluetoothExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 125BB6940DF9769B23F45373035B168C /* CoreBluetoothExtensions.swift */; };
+		A158CFA57690E28409B0ED106FCD5CCD /* Eddystone-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 12B81F04A88D2008417255D2689517CF /* Eddystone-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BF78922E72647EFF4AA5236719CDBC65 /* NSTimeIntervalExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = F34A8A95FE8072262DF6608A5B82DA9A /* NSTimeIntervalExtensions.swift */; };
+		C67B7F55FAC8C310EBF16F3518019DAD /* UrlFrame.swift in Sources */ = {isa = PBXBuildFile; fileRef = F17C4A3C8780DE59BFA0A88E6DDE3186 /* UrlFrame.swift */; };
+		C9FF6CDCE8AF0452B07FF57C95C64B7D /* Frame.swift in Sources */ = {isa = PBXBuildFile; fileRef = 779C14027D9AA4A9B986EB6C6461C968 /* Frame.swift */; };
+		D2BDA7C48FD5B8DDFCFD07B20B8BC818 /* Eddystone.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 6B33121B180F1D293CED214A392D0D1D /* Eddystone.bundle */; };
+		EC01DCAC38892DE4316E3E7CDB9543E6 /* Global.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4280565FD863D1FF869FC2E2F417407E /* Global.swift */; };
+		F472F35D744EBD10459718F1E9D2323A /* Pods-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FCCC293EF0A6736F96BE7CF6987EAA37 /* Eddystone-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 337BCDED6BAC8AD95935FF0C81B6AF69 /* Eddystone-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AA41A82CD969397FBCB52EB2193FDA19 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B6DC2DF66D7D28699E296E652F01F05A;
+			remoteInfo = Eddystone;
+		};
+		DA3A52F5809854C02C1BD692A154B4C9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CB107DC34BB9DFE8E07C5F71E990EFBD;
+			remoteInfo = "Eddystone-Eddystone";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		072E62358342D6E70843AC662DB0187A /* IntExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = IntExtensions.swift; path = Pod/Classes/IntExtensions.swift; sourceTree = "<group>"; };
+		125BB6940DF9769B23F45373035B168C /* CoreBluetoothExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CoreBluetoothExtensions.swift; path = Pod/Classes/CoreBluetoothExtensions.swift; sourceTree = "<group>"; };
+		12B81F04A88D2008417255D2689517CF /* Eddystone-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eddystone-umbrella.h"; sourceTree = "<group>"; };
+		2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-umbrella.h"; sourceTree = "<group>"; };
+		2C0087A4FDE418BDADC17AC5EC754B4D /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		337BCDED6BAC8AD95935FF0C81B6AF69 /* Eddystone-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Eddystone-dummy.m"; sourceTree = "<group>"; };
+		4280565FD863D1FF869FC2E2F417407E /* Global.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Global.swift; path = Pod/Classes/Global.swift; sourceTree = "<group>"; };
+		45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		5309BFEA25A2A03724F69030EF0A4120 /* UidFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UidFrame.swift; path = Pod/Classes/UidFrame.swift; sourceTree = "<group>"; };
+		68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreBluetooth.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/CoreBluetooth.framework; sourceTree = DEVELOPER_DIR; };
+		6B33121B180F1D293CED214A392D0D1D /* Eddystone.bundle */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Eddystone.bundle; sourceTree = BUILT_PRODUCTS_DIR; };
+		74715FA6BB0999445EDAF31FF82E336E /* Scanner.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Scanner.swift; path = Pod/Classes/Scanner.swift; sourceTree = "<group>"; };
+		76096088F9275E6BAABC11459A0FD726 /* Url.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Url.swift; path = Pod/Classes/Url.swift; sourceTree = "<group>"; };
+		779C14027D9AA4A9B986EB6C6461C968 /* Frame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Frame.swift; path = Pod/Classes/Frame.swift; sourceTree = "<group>"; };
+		79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Pods.modulemap; sourceTree = "<group>"; };
+		83142A5C81CEF594C07ABE96814D0C03 /* Eddystone-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Eddystone-prefix.pch"; sourceTree = "<group>"; };
+		87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		8E107F287BF4A4F93FAEFD77BA834D06 /* Eddystone.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Eddystone.xcconfig; sourceTree = "<group>"; };
+		91297C601340CF876F4C730453DABB29 /* Generic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Generic.swift; path = Pod/Classes/Generic.swift; sourceTree = "<group>"; };
+		977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		97BBBFD5E591D66B7B8DB2F8F83C236B /* TlmFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TlmFrame.swift; path = Pod/Classes/TlmFrame.swift; sourceTree = "<group>"; };
+		B2C22AECCF7E1604B272D80202693215 /* Beacon.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Beacon.swift; path = Pod/Classes/Beacon.swift; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		CD222C51096AD37DB3F43674EF654ED5 /* Object.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Object.swift; path = Pod/Classes/Object.swift; sourceTree = "<group>"; };
+		CE60108BB908D50417E4C02D5D84C0AE /* Eddystone.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Eddystone.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		E311E6883BCA313C8980200E56FA4796 /* Uid.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Uid.swift; path = Pod/Classes/Uid.swift; sourceTree = "<group>"; };
+		E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-frameworks.sh"; sourceTree = "<group>"; };
+		E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EB112B6439FDABBE31C3DAC28D22EADE /* Eddystone.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = Eddystone.modulemap; sourceTree = "<group>"; };
+		F17C4A3C8780DE59BFA0A88E6DDE3186 /* UrlFrame.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = UrlFrame.swift; path = Pod/Classes/UrlFrame.swift; sourceTree = "<group>"; };
+		F34A8A95FE8072262DF6608A5B82DA9A /* NSTimeIntervalExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NSTimeIntervalExtensions.swift; path = Pod/Classes/NSTimeIntervalExtensions.swift; sourceTree = "<group>"; };
+		F8A0834B12F78C70F92FDDBAD61C8D54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FD77091ECFE8287A079ECF9C808BFC0C /* DoubleExtensions.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DoubleExtensions.swift; path = Pod/Classes/DoubleExtensions.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		15DF4DA3DAF2F4C83843268A10D8284B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3692A11DEC4747A9A08107E3D6983B81 /* CoreBluetooth.framework in Frameworks */,
+				85487A8EA2F0CC70BD56B28DBA56F6CA /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E8CF5DEA616498BE4D6B0D85CCD5AA6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E23E02D68C55E40E4B9C157E0744F42 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		ED382993FBD155BD9E91F4FCD8F71F48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0B1CA0BFEB6249D24F524A1F99B3257A /* Eddystone */ = {
+			isa = PBXGroup;
+			children = (
+				B2C22AECCF7E1604B272D80202693215 /* Beacon.swift */,
+				125BB6940DF9769B23F45373035B168C /* CoreBluetoothExtensions.swift */,
+				FD77091ECFE8287A079ECF9C808BFC0C /* DoubleExtensions.swift */,
+				779C14027D9AA4A9B986EB6C6461C968 /* Frame.swift */,
+				91297C601340CF876F4C730453DABB29 /* Generic.swift */,
+				4280565FD863D1FF869FC2E2F417407E /* Global.swift */,
+				072E62358342D6E70843AC662DB0187A /* IntExtensions.swift */,
+				F34A8A95FE8072262DF6608A5B82DA9A /* NSTimeIntervalExtensions.swift */,
+				CD222C51096AD37DB3F43674EF654ED5 /* Object.swift */,
+				74715FA6BB0999445EDAF31FF82E336E /* Scanner.swift */,
+				97BBBFD5E591D66B7B8DB2F8F83C236B /* TlmFrame.swift */,
+				E311E6883BCA313C8980200E56FA4796 /* Uid.swift */,
+				5309BFEA25A2A03724F69030EF0A4120 /* UidFrame.swift */,
+				76096088F9275E6BAABC11459A0FD726 /* Url.swift */,
+				F17C4A3C8780DE59BFA0A88E6DDE3186 /* UrlFrame.swift */,
+				870446D8EAAEE1F0BFAF222942C9DC73 /* Support Files */,
+			);
+			path = Eddystone;
+			sourceTree = "<group>";
+		};
+		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				848E9F7290E8287ED50D07E9DAF7EA84 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		75D98FF52E597A11900E131B6C4E1ADA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E8446514FBAD26C0E18F24A5715AEF67 /* Info.plist */,
+				79A9DEDC89FE8336BF5FEDAAF75BF7FC /* Pods.modulemap */,
+				D0405803033A2A777B8E4DFA0C1800ED /* Pods-acknowledgements.markdown */,
+				87B213035BAC5F75386F62D3C75D2342 /* Pods-acknowledgements.plist */,
+				894E5DA93A9F359521A89826BE6DA777 /* Pods-dummy.m */,
+				E7F21354943D9F42A70697D5A5EF72E9 /* Pods-frameworks.sh */,
+				CBC0F7C552B739C909B650A0F42F7F38 /* Pods-resources.sh */,
+				2BCC458FDD5F692BBB2BFC64BB5701FC /* Pods-umbrella.h */,
+				977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */,
+				DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		7722C3FF7518573168C10737A66F80C5 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0B1CA0BFEB6249D24F524A1F99B3257A /* Eddystone */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
+				7722C3FF7518573168C10737A66F80C5 /* Pods */,
+				BA4CEBE4AEE7D3CA6211CC94CAA4F596 /* Products */,
+				B7B80995527643776607AFFA75B91E24 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		848E9F7290E8287ED50D07E9DAF7EA84 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				68F8AD25F8BF82C8B570FDF5E1925FAA /* CoreBluetooth.framework */,
+				45D9C1FD2495DA5334F594F1F7BAB545 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		870446D8EAAEE1F0BFAF222942C9DC73 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				EB112B6439FDABBE31C3DAC28D22EADE /* Eddystone.modulemap */,
+				8E107F287BF4A4F93FAEFD77BA834D06 /* Eddystone.xcconfig */,
+				337BCDED6BAC8AD95935FF0C81B6AF69 /* Eddystone-dummy.m */,
+				83142A5C81CEF594C07ABE96814D0C03 /* Eddystone-prefix.pch */,
+				12B81F04A88D2008417255D2689517CF /* Eddystone-umbrella.h */,
+				F8A0834B12F78C70F92FDDBAD61C8D54 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Eddystone";
+			sourceTree = "<group>";
+		};
+		B7B80995527643776607AFFA75B91E24 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75D98FF52E597A11900E131B6C4E1ADA /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		BA4CEBE4AEE7D3CA6211CC94CAA4F596 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6B33121B180F1D293CED214A392D0D1D /* Eddystone.bundle */,
+				CE60108BB908D50417E4C02D5D84C0AE /* Eddystone.framework */,
+				2C0087A4FDE418BDADC17AC5EC754B4D /* Pods.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		4870F88A83E2E57738E65BBAD1888317 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F472F35D744EBD10459718F1E9D2323A /* Pods-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B09FF67C53B1A16605A496E83AAF0AC2 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A158CFA57690E28409B0ED106FCD5CCD /* Eddystone-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D7B05AD07BD4F14117C13E21F7D22D9 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1BF1E59CC7B48D41EA27AAC48DF03DF7 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				6E47A0661EC041C55C8F172C27C54D10 /* Sources */,
+				E8CF5DEA616498BE4D6B0D85CCD5AA6C /* Frameworks */,
+				4870F88A83E2E57738E65BBAD1888317 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				48749AFB4B86B3759E3E3E9D8D414017 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 2C0087A4FDE418BDADC17AC5EC754B4D /* Pods.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		B6DC2DF66D7D28699E296E652F01F05A /* Eddystone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A8540F20CFD4401E741FEE696F6C1BEF /* Build configuration list for PBXNativeTarget "Eddystone" */;
+			buildPhases = (
+				F161B9AC5680579A12A24DB8114DE3C0 /* Sources */,
+				15DF4DA3DAF2F4C83843268A10D8284B /* Frameworks */,
+				DFDD99B29DC26743FBE8074C10CA70EC /* Resources */,
+				B09FF67C53B1A16605A496E83AAF0AC2 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				17A40E24DA5B3AE227AA2836645AB70E /* PBXTargetDependency */,
+			);
+			name = Eddystone;
+			productName = Eddystone;
+			productReference = CE60108BB908D50417E4C02D5D84C0AE /* Eddystone.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CB107DC34BB9DFE8E07C5F71E990EFBD /* Eddystone-Eddystone */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2034B9D0DA4FA346E1924817C2FDD1A7 /* Build configuration list for PBXNativeTarget "Eddystone-Eddystone" */;
+			buildPhases = (
+				DFD35EAE8FF15BE1E5C08638A79AAA2D /* Sources */,
+				ED382993FBD155BD9E91F4FCD8F71F48 /* Frameworks */,
+				00AE2694F3FF2E04E6A4A32792F5054B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Eddystone-Eddystone";
+			productName = "Eddystone-Eddystone";
+			productReference = 6B33121B180F1D293CED214A392D0D1D /* Eddystone.bundle */;
+			productType = "com.apple.product-type.bundle";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = BA4CEBE4AEE7D3CA6211CC94CAA4F596 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B6DC2DF66D7D28699E296E652F01F05A /* Eddystone */,
+				CB107DC34BB9DFE8E07C5F71E990EFBD /* Eddystone-Eddystone */,
+				7D7B05AD07BD4F14117C13E21F7D22D9 /* Pods */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00AE2694F3FF2E04E6A4A32792F5054B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFDD99B29DC26743FBE8074C10CA70EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2BDA7C48FD5B8DDFCFD07B20B8BC818 /* Eddystone.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		6E47A0661EC041C55C8F172C27C54D10 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				961B177759154B100069CD3DCDCB2999 /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DFD35EAE8FF15BE1E5C08638A79AAA2D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F161B9AC5680579A12A24DB8114DE3C0 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				641FEA384354CCA679BD30197CBE1B07 /* Beacon.swift in Sources */,
+				96F7718EB09E03ADD3D93B4DB71110EC /* CoreBluetoothExtensions.swift in Sources */,
+				95FA5C99F898056A81AAEE4AD82729A4 /* DoubleExtensions.swift in Sources */,
+				FCCC293EF0A6736F96BE7CF6987EAA37 /* Eddystone-dummy.m in Sources */,
+				C9FF6CDCE8AF0452B07FF57C95C64B7D /* Frame.swift in Sources */,
+				794A258922CB2EA87DBF3066D68EA0EB /* Generic.swift in Sources */,
+				EC01DCAC38892DE4316E3E7CDB9543E6 /* Global.swift in Sources */,
+				780BDD71DC2F571FD752DEC54091E4B9 /* IntExtensions.swift in Sources */,
+				BF78922E72647EFF4AA5236719CDBC65 /* NSTimeIntervalExtensions.swift in Sources */,
+				21C6018E93AD95609F9295A5F35C432B /* Object.swift in Sources */,
+				6683497D46C032777D963B5984F97D58 /* Scanner.swift in Sources */,
+				2F8D2487DFD09F7328A0BEDAC4FFDBB3 /* TlmFrame.swift in Sources */,
+				2EC4149C7D05B04A3E28943FB8701A1C /* Uid.swift in Sources */,
+				68C7368A302C6B5AADB8CA6A879FB8E4 /* UidFrame.swift in Sources */,
+				6338D0F6D1629CFD1031EA2EE057D33F /* Url.swift in Sources */,
+				C67B7F55FAC8C310EBF16F3518019DAD /* UrlFrame.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		17A40E24DA5B3AE227AA2836645AB70E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Eddystone-Eddystone";
+			target = CB107DC34BB9DFE8E07C5F71E990EFBD /* Eddystone-Eddystone */;
+			targetProxy = DA3A52F5809854C02C1BD692A154B4C9 /* PBXContainerItemProxy */;
+		};
+		48749AFB4B86B3759E3E3E9D8D414017 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Eddystone;
+			target = B6DC2DF66D7D28699E296E652F01F05A /* Eddystone */;
+			targetProxy = AA41A82CD969397FBCB52EB2193FDA19 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		0AAE8738B206240E4E39DD4CF8F3C1B2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 977577C045EDA9D9D1F46E2598D19FC7 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1A940ECB153ED282CC6027C9E410C5FB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E107F287BF4A4F93FAEFD77BA834D06 /* Eddystone.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Debug;
+		};
+		46BCB521195D194A839A37E54119BAB8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E107F287BF4A4F93FAEFD77BA834D06 /* Eddystone.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eddystone/Eddystone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eddystone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eddystone/Eddystone.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		53A545E09C5696164CAB18588765D35D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E107F287BF4A4F93FAEFD77BA834D06 /* Eddystone.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Eddystone/Eddystone-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Eddystone/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/Eddystone/Eddystone.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		6CF00A1798FE09102976FEB84B4A162C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8E107F287BF4A4F93FAEFD77BA834D06 /* Eddystone.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				PRODUCT_NAME = Eddystone;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				WRAPPER_EXTENSION = bundle;
+			};
+			name = Release;
+		};
+		8D1534490D941DCA47C62AC4314182AF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		C5A18280E9321A9268D1C80B7DA43967 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8E794390C0B61C1C3CE1946FE882F4F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DA312349A49333542E6F4B36B329960E /* Pods.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods/Pods.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1BF1E59CC7B48D41EA27AAC48DF03DF7 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0AAE8738B206240E4E39DD4CF8F3C1B2 /* Debug */,
+				F8E794390C0B61C1C3CE1946FE882F4F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2034B9D0DA4FA346E1924817C2FDD1A7 /* Build configuration list for PBXNativeTarget "Eddystone-Eddystone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1A940ECB153ED282CC6027C9E410C5FB /* Debug */,
+				6CF00A1798FE09102976FEB84B4A162C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8D1534490D941DCA47C62AC4314182AF /* Debug */,
+				C5A18280E9321A9268D1C80B7DA43967 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A8540F20CFD4401E741FEE696F6C1BEF /* Build configuration list for PBXNativeTarget "Eddystone" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				53A545E09C5696164CAB18588765D35D /* Debug */,
+				46BCB521195D194A839A37E54119BAB8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
