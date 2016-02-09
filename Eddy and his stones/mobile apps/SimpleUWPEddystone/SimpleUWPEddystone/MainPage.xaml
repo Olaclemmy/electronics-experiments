@@ -1,0 +1,91 @@
+﻿<Page
+    x:Class="SimpleUWPEddystone.MainPage"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:local="using:SimpleUWPEddystone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    mc:Ignorable="d">
+
+    <Grid Background="{ThemeResource ApplicationPageBackgroundThemeBrush}">
+        <StackPanel x:Name="contentPanel" Margin="8,32,0,0">
+            <!-- logo -->
+            <Image Source="Assets/eddystones_app_logo.png"
+                   Width="250"
+                   Margin="0,60,0,60"
+                   />
+            <!-- ID label -->
+            <TextBlock Text="Eddystone ID" 
+                       HorizontalAlignment="Center"
+                       FontWeight="Bold"
+                       FontSize="25"
+                       Foreground="Orange"
+                       Margin="0,0,0,20"
+                       />
+            
+            <!-- ID text -->
+            <TextBlock Name="txtEddystoneID"
+                       HorizontalAlignment="Center"
+                       FontWeight="Normal"
+                       FontSize="25"
+                       Margin="0,0,0,60"                       
+                       />
+
+            <!-- ID URL -->
+            <TextBlock Text="Eddystone URL" 
+                       HorizontalAlignment="Center"
+                       FontWeight="Bold"
+                       FontSize="25"
+                       Foreground="Orange"
+                       Margin="0,0,0,20"
+                       />
+
+            <!-- ID URL -->
+            <TextBlock Name="txtEddystoneURL"
+                       HorizontalAlignment="Center"
+                       FontWeight="Normal"
+                       FontSize="25"
+                       Margin="0,0,0,60"                       
+                       />
+
+
+            <!-- ID RSSI -->
+            <TextBlock Text="Eddystone RSSI" 
+                       HorizontalAlignment="Center"
+                       FontWeight="Bold"
+                       FontSize="25"
+                       Foreground="Orange"
+                       Margin="0,0,0,20"
+                       />
+
+            <!-- ID RSSI -->
+            <TextBlock Name="txtEddystoneRSSI"
+                       HorizontalAlignment="Center"
+                       FontWeight="Normal"
+                       FontSize="25"
+                       Margin="0,0,0,60"                       
+                       />
+
+
+            <Button Name="btnSearchBeacons" 
+                    FontSize="20"
+                    HorizontalAlignment="Center" 
+                    Content="Search beacons" 
+                    Click="btnSearchClick"
+                    Margin="0,0,0,40" 
+                    />
+
+
+            <!-- Written by -->
+            <TextBlock Text="Written by Glenn De Backer&#x0a;glenn@simplicity.be" 
+                       HorizontalAlignment="Center"
+                       FontWeight="Normal"
+                       FontSize="15"
+                       TextAlignment="Center"
+                       Foreground="Gray"
+                       Margin="0,0,0,20"
+                       />
+
+        </StackPanel>
+    </Grid>
+</Page>
